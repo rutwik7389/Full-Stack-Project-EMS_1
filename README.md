@@ -9,18 +9,11 @@ Technologies Used
 Backend: Spring Boot, Spring Data JPA
 Frontend: Angular (http://localhost:4200)
 Database: MySQL
-Tools: Maven, Eclipse/VS Code
-Setup Instructions
+Tools: Maven, Eclipse & Vs Code
+
 Clone the repository:
-
 bash
-git clone https://github.com/your-username/employee-management-system.git
-Backend Setup:
-
-Update application.properties with your MySQL credentials.
-Run the Spring Boot application:
-bash
-mvn spring-boot:run
+git clone  https://github.com/rutwik7389/Full-Stack-Project-EMS_1.git
 
 Frontend Setup:
 Set up Angular frontend and start it:

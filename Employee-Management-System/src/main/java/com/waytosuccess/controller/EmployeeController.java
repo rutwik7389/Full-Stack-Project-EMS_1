@@ -1,30 +1,3 @@
-/*package com.waytosuccess.controller;
-import java.util.List;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import com.waytosuccess.entity.Employee;
-import com.waytosuccess.repository.EmployeeRepoditory;
-
-@RestController
-public class EmployeeController {
-
-    @Autowired  // Correct the annotation here
-    private EmployeeRepoditory employeeRepoditory;
-
-    @GetMapping("/employees")
-    public List<Employee> getAllEmployees() {
-        return employeeRepoditory.findAll();
-    }
-    @PostMapping("/employees")
-    public Employee createEmployee(@RequestBody Employee employee) {
-    	return employeeRepoditory.save(employee);
-    }
-    
-    
-}*/
 package com.waytosuccess.controller;
 
 import java.util.List;
